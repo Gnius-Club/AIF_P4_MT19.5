@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-P4-TM19.5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 19.5 4to Primaria</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos de Aprendizaje:</strong>
+                                    <ul>
+                                        <li>Profundizar en la lógica de decisión con múltiples sensores, añadiendo más condiciones o prioridades al Cutebot para navegar un entorno con más variables de seguridad y "niveles de alerta".</li>
+                                        <li>Parte de la Currícula de IA cubierta: Alfabetización Adicional: La Importancia de Múltiples Sensores (fusión y toma de decisiones avanzada).</li>
+                                        <li>Objetivo General de la Sesión: Que los estudiantes refuercen la programación de decisiones basadas en múltiples sensores, creando un "sistema de alarma" simple para el Cutebot que use la combinación de la A.I. Lens y el sensor ultrasónico para indicar diferentes niveles de alerta (ej. "seguro", "precaución", "peligro inminente").</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li>⚡ Actividad 1: Saludo de I.A. con todos</li>
+                                        <li>⚡ Actividad 2: I Can Statement + Ejemplificación</li>
+                                        <li>⚡ Actividad 3: AI GYM</li>
+                                        <li>⚡ Actividad 4: Brain Spark</li>
+                                        <li>⚡ Actividad 5: Gnius STORM (Think-Pair-Share)</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Programa en Micro:bit donde el Cutebot, usando la A.I. Lens y el sensor ultrasónico, indica diferentes niveles de alerta (ej. seguro, precaución, peligro) mediante luces e iconos, basándose en la combinación de colores detectados y distancias.</li>
+                                        <li>Participación en la discusión sobre la importancia de la fusión de sensores y la toma de decisiones multi-nivel en sistemas de alerta de IA.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Agente Gnius" (Xolo) activo.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-11).</li>
+                                        <li>Robots Cutebot (1 por cada 2 estudiantes, con A.I. Lens conectada).</li>
+                                        <li>Smart A.I. Lens (1 por cada 2 estudiantes, conectada al Cutebot).</li>
+                                        <li>Micro:bits y baterías (1 por cada 2 estudiantes).</li>
+                                        <li>Acceso a MakeCode (<a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>), con extensión de A.I. Lens.</li>
+                                        <li>Objetos para usar como obstáculos (libros, cajas).</li>
+                                        <li>Tarjetas de colores (ROJO, AMARILLO, VERDE).</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Confirmar acceso y funcionamiento de MakeCode y la extensión de A.I. Lens.</li>
+                                                <li>Asegurar disponibilidad, carga y conexión de Cutebots, A.I. Lens y Micro:bits.</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Agente Gnius" (Xolo) para asegurar su operatividad.</li>
+                                                <li>Asegurarse de que el modo de reconocimiento de colores de la A.I. Lens funcione correctamente.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                        <li><strong>Ejemplo Profesor:</strong> Tener listo y funcional tu proyecto de ejemplo (Cutebot que, según la distancia a un objeto y/o el color de una tarjeta, cambia luces de verde a amarillo a rojo, y quizás emite sonidos diferentes) para la demostración en la Actividad 2.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de I.A. con todos ⏰ 3 minutos</h2>
+                <p>El chatbot da la bienvenida, recordando la toma de decisiones segura y anticipando un sistema de alerta multi-nivel.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Saludo de I.A. con todos ⏰ 0.5 minutos</h3>
+                            <p>(Proyectar Diapositiva 2). Da la bienvenida a los alumnos, recordando cómo Cutebot ya toma decisiones seguras con sensores. Adelanta el nuevo desafío: un sistema de alerta robótico. Pídeles que activen a Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Hola, ingenieros de alerta! Ya aprendieron a que Cutebot tome decisiones seguras cuando sus 'sentidos' le dan información contradictoria. Hoy vamos a ir un paso más allá: ¿qué tal si Cutebot no solo se detiene, sino que también nos alerta de diferentes maneras si el peligro está lejos, cerca o si ve una señal de 'no pasar'? ¡Vamos a construir un robot guardián! Antes de empezar, activen a Xolo con su nombre y sus gustos."</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Saludo de I.A. con todos ⏰ 2.5 minutos</h3>
+                            <p>Monitorea a los alumnos mientras interactúan con Xolo. Asegúrate de que todos reciban una respuesta y resuelve cualquier problema técnico.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <p class="dialogue assistant">¡Excelente! Xolo está listo para esta misión de alerta robótica. Si alguien no ha recibido respuesta de Xolo, levante la mano.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: I Can Statement + Ejemplificación ⏰ 5 minutos</h2>
+                <p>Presentar el concepto de diferentes "niveles de alerta" usando la combinación de sensores.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Introducción y Contextualización ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 3). Introduce la idea de que un robot debe ser más preciso en sus alertas, como un robot de seguridad que distingue entre "precaución" y "alarma roja" usando múltiples variables.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">En la sesión anterior, Cutebot se detenía si el ultrasonido detectaba un obstáculo O si la A.I. Lens veía una tarjeta roja. Hoy queremos que sea más preciso en sus alertas. Imaginen un robot de seguridad: si ve una puerta abierta, es 'precaución'. Si detecta a alguien muy cerca, ¡es 'alarma roja'! Vamos a programar diferentes niveles de alerta usando la distancia del ultrasónico y el color de una tarjeta (verde/amarillo/rojo). Cutebot mostrará luces o iconos diferentes para cada nivel.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Presentación del Proyecto del Profesor ⏰ 1 minuto</h3>
+                            <p>Muestra tu proyecto de ejemplo (Cutebot que cambia luces de verde a amarillo a rojo según la distancia/color, y quizás emite sonidos) ya cargado y funcionando. Esta es una demostración en vivo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">Miren este ejemplo que preparé. (Muestra el Cutebot. Puedes, por ejemplo, tener un objeto que acercas y alejas, y/o tarjetas de colores, y el Cutebot cambia sus luces de verde a amarillo a rojo, y quizás emite sonidos diferentes). Mi 'idea (vibe)' fue que mi Cutebot fuera un sistema de alerta avanzado, detectando diferentes niveles de riesgo.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: "I Can Statement" y Conexión ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 4). Presenta formalmente el 'I Can Statement'.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">Hoy vamos a programar a Cutebot para que muestre diferentes niveles de alerta (seguro, precaución, peligro) combinando la información de su sensor ultrasónico y la A.I. Lens. Al final de la clase, podrán decir: '<strong>Yo puedo hacer que mi Cutebot tome decisiones más matizadas y comunique diferentes estados de alerta usando la información de múltiples sensores.</strong>' ¡A construir robots guardianes!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: AI GYM ⏰ 7 minutos</h2>
+                <p>Repasar comandos de sensores y presentar la lógica de alarma multi-nivel con condiciones anidadas y operadores lógicos.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Instrucción Inicial y Contextualización de la IA ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 5). Presenta el A.I. GYM y da la instrucción para que los alumnos pidan la información a Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">¡Genios, al A.I. GYM! 🧠💪 Xolo nos recordará los comandos de ultrasonido y color, y nos explicará cómo combinarlos para crear un sistema de alarma robótico con varios niveles de alerta. Escriban en el chat: 'Mi perfil es [escribe aquí tus gustos/intereses] y quiero aprender a crear un sistema de alarma multi-nivel con Cutebot'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Interacción Guiada y Ejemplo de Plan (GCS) ⏰ 6 minutos</h3>
+                            <p>(Proyectar Diapositivas 6 y 7). Monitorea a los alumnos. Xolo repasará `leer_distancia_ultrasonido_cm()` y `leer_lente_IA_color()`. Explicará cómo usar `SI...SINO SI...` con condiciones complejas (usando `O`/`OR` y `Y`/`AND`) para definir niveles de alerta (ej. MUY ALTO PELIGRO si distancia < 5 O color ROJO; PRECAUCIÓN si distancia < 15 O color AMARILLO; SEGURO si color VERDE). Destacará que los robots de monitoreo usan esto para alertar a humanos.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">(Mientras los alumnos interactúan con Xolo) ¡Excelente! Xolo les está recordando cómo leer la distancia del ultrasonido y el color de la A.I. Lens. Les explicará que podemos usar `SI...SINO SI...` con condiciones combinadas (usando `Y` y `O`) para definir niveles de alerta: ¡Peligro Inminente si está MUY cerca O ve ROJO! ¡Precaución si está CERCA O ve AMARILLO! ¡Y Seguro si ve VERDE! Les contará que los robots de seguridad y monitoreo usan esto para interpretar peligros y alertarnos. ¡Están diseñando sistemas que nos hacen más conscientes de nuestro alrededor!</p>
+                            <p class="dialogue assistant">Para que vean un ejemplo de tu plan (el GCS) para un sistema de alarma multi-nivel, Xolo podría presentarles esto:</p>
+                            <pre class="dialogue assistant" style="color: #d32f2f;">
+AL INICIO:
+    Initialize AI-Lens
+    Switch function as Color
+    mostrar texto "Modo Alerta!"
+
+POR SIEMPRE:
+    fijar variable_texto "color_actual" a leer_lente_IA_color()
+    fijar variable "distancia_actual" a leer_distancia_ultrasonido_cm()
+
+    // Nivel 3: PELIGRO INMINENTE (Prioridad más alta)
+    SI ( (variable "distancia_actual" < 5 AND variable "distancia_actual" > 0) OR (variable_texto "color_actual" == "ROJO") ):
+        cutebot_detener()
+        cutebot_todos_los_led(ROJO)
+        ESPERAR 0.2 segundos
+        cutebot_apagar_leds()
+        ESPERAR 0.2 segundos // Efecto parpadeo
+        mostrar icono EXCLAMACION
+    // Nivel 2: PRECAUCIÓN
+    SINO SI ( (variable "distancia_actual" >= 5 AND variable "distancia_actual" < 15) OR (variable_texto "color_actual" == "AMARILLO") ):
+        cutebot_avanzar(10) // Avance muy lento
+        cutebot_todos_los_led(AMARILLO)
+        mostrar icono DUDA
+    // Nivel 1: SEGURO
+    SINO SI (variable_texto "color_actual" == "VERDE" AND variable "distancia_actual" >= 15):
+        cutebot_avanzar(50)
+        cutebot_todos_los_led(VERDE)
+        mostrar icono FELIZ
+    SINO: // Comportamiento por defecto
+        cutebot_detener()
+        cutebot_apagar_leds()
+        limpiar pantalla
+    FIN SI
+    ESPERAR 0.1 segundos
+                            </pre>
+                            <p class="dialogue assistant">Si tienen dudas, ¡pregúntenle a Xolo! Por ejemplo: <br>
+                            <strong>* 'Xolo, ¿qué significa el operador "O" (OR)?'</strong><br>
+                            <strong>* '¿Cómo un dron de inspección sabe cuándo algo es peligroso?'</strong> (Relacionar con sus gustos) <br>
+                            <strong>* '¿Los sistemas de seguridad usan sensores parecidos?'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark ⏰ 20 minutos</h2>
+                <p>Poner en práctica el diseño de un sistema de alerta con múltiples sensores y niveles.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Introducción al Brain Spark ⏰ 1 minutos</h3>
+                            <p>(Proyectar Diapositiva 8). Presenta la actividad como la fase creativa principal. Recuerda a los alumnos que trabajarán en parejas y compartirán el material.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">¡Tiempo, ingenieros de seguridad robótica! Ahora al Brain Spark, donde diseñarán y programarán su propio sistema de alarma para Cutebot. Recuerden que trabajarán en parejas, así que necesitarán compartir el Cutebot, la A.I. Lens y el Micro:bit para programar y probar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Ideación (La "idea (vibe)" del Sistema de Alerta) ⏰ 3 minutos</h3>
+                            <p>Anima a los alumnos a pensar en una 'idea (vibe)' individual para un sistema de alerta de 3 estados, combinando distancia y colores. Deberán organizarse con su compañero para turnarse al programar y probar.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">¿Cómo quieren que su Cutebot muestre diferentes niveles de alerta? Por ejemplo: 'Quiero que mi Cutebot tenga 3 estados: Verde (seguro, si ve VERDE y no hay nada cerca >20cm), Amarillo (precaución, si hay algo entre 10-20cm o ve AMARILLO), Rojo (peligro, si hay algo <10cm o ve ROJO).' Piensen en su 'idea (vibe)' individual. Luego, hablen con su compañero para organizarse y decidir cómo se turnarán para usar el material para programar y probar cada una de sus ideas. Si necesitan inspiración, consulten a Xolo: 'Exploremos ideas juntos para un sistema de alarma robótico'."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Planificación con IA (El "plan (el GCS)") y Logística ⏰ 4 minutos</h3>
+                            <p>(Proyectar Diapositiva 9). Guía a los alumnos sobre cómo comunicar su 'idea (vibe)' a Xolo para obtener 'tu plan (el GCS)', estructurando las condiciones con rangos de distancia y operadores lógicos. Asegúrate de que cada pareja tenga su material, obstáculos y tarjetas de colores.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">¿Ya tienen su 'idea (vibe)' para el sistema de alerta? ¡Genial! Descríbansela a Xolo, y él les ayudará a estructurar las condiciones con rangos de distancia y operadores `Y`/`O`, y a crear 'tu plan (el GCS)'. Por ejemplo, si su 'idea (vibe)' es: 'Cutebot muestra 3 niveles de alerta (Verde/Amarillo/Rojo) según distancia y color de tarjeta'.</p>
+                            <p class="dialogue assistant">Xolo podría generar 'tu plan (el GCS)' así:</p>
+                            <pre class="dialogue assistant" style="color: #d32f2f;">
+AL INICIO:
+    Initialize AI-Lens
+    Switch function as Color
+    mostrar texto "Modo Alerta!"
+
+POR SIEMPRE:
+    fijar variable_texto "color_actual" a leer_lente_IA_color()
+    fijar variable "distancia_actual" a leer_distancia_ultrasonido_cm()
+
+    // Nivel 3: PELIGRO INMINENTE (Prioridad más alta)
+    SI ( (variable "distancia_actual" < 10 AND variable "distancia_actual" > 0) OR (variable_texto "color_actual" == "ROJO") ):
+        cutebot_detener()
+        cutebot_todos_los_led(ROJO)
+        ESPERAR 0.2 segundos
+        cutebot_apagar_leds()
+        ESPERAR 0.2 segundos // Efecto parpadeo
+        mostrar icono EXCLAMACION
+    // Nivel 2: PRECAUCIÓN
+    SINO SI ( (variable "distancia_actual" >= 10 AND variable "distancia_actual" < 20) OR (variable_texto "color_actual" == "AMARILLO") ):
+        cutebot_avanzar(10) // Avance muy lento
+        cutebot_todos_los_led(AMARILLO)
+        mostrar icono DUDA
+    // Nivel 1: SEGURO (Solo si no hay ninguna de las condiciones anteriores)
+    SINO SI (variable_texto "color_actual" == "VERDE" AND variable "distancia_actual" >= 20):
+        cutebot_avanzar(50)
+        cutebot_todos_los_led(VERDE)
+        mostrar icono FELIZ
+    SINO: // Comportamiento por defecto
+        cutebot_detener()
+        cutebot_apagar_leds()
+        limpiar pantalla
+    FIN SI
+    ESPERAR 0.1 segundos
+                            </pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Implementación, Prueba y Refinamiento ⏰ 11 minutos</h3>
+                            <p>Da tiempo a los alumnos para traducir 'tu plan (el GCS)' a bloques. Prueban con Cutebot, moviendo objetos y mostrando tarjetas para ver los cambios de estado. Ajustan umbrales y observan la prioridad de las condiciones.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">¡A programar el sistema de alerta! Tomen 'tu plan (el GCS)' de Xolo y pásenlo a bloques. Prueben su Cutebot: muevan objetos a diferentes distancias y muestren tarjetas de colores (rojo, amarillo, verde). Observen cómo cambian los estados de alerta del robot. ¿El sistema de alerta cambia correctamente entre los 3 estados? ¿Los umbrales de distancia y la prioridad de los colores funcionan como esperaban? ¿Qué pasa si acercan un objeto rojo? Ajusten los valores para que funcione mejor. Recuerden turnarse.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 5: Mejoras y Desafíos ⏰ 1 minutos</h3>
+                            <p>Ofrece desafíos adicionales.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">¿Su Cutebot ya es un guardián atento? ¡Fantástico! Para un desafío extra: ¿Pueden hacer que el Cutebot emita un sonido diferente para cada nivel de alerta? ¿O que envíe una señal (ej. una carita triste) a otro Micro:bit cercano si detecta "PELIGRO INMINENTE"? ¡Consulten con Xolo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM ⏰ 5 minutos</h2>
+                <p>Los alumnos muestran sus sistemas de alerta y reflexionan sobre su utilidad y aplicaciones en seguridad.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gnius STORM (Think - Individual) ⏰ 0.5 minutos</h3>
+                            <p>(Proyectar Diapositiva 10). Presenta la actividad.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">¡Tiempo, ingenieros de sistemas de alerta! Han hecho un gran trabajo en el Brain Spark. Ahora, en nuestro Gnius STORM, vamos a ver cómo sus Cutebots nos alertan sobre el entorno.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Gnius STORM (Pair - Parejas) ⏰ 0.5 minutos</h3>
+                            <p>Reflexión individual.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">Antes de mostrarlo, piensen 30 segundos: <strong>¿Qué fue lo más interesante de hacer que su Cutebot mostrara diferentes niveles de alerta? ¿Dónde creen que un robot con un sistema así podría ser útil en el mundo real? (Ej. seguridad, inspección)</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Gnius STORM (Share - Retroalimentación) ⏰ 1.5 minutos</h3>
+                            <p>Indica a los alumnos que se junten en parejas, muestren sus sistemas de alerta y expliquen su lógica.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">¡Muy bien! Con su compañero, muestren cómo su Cutebot cambia los niveles de alerta. Expliquen: <strong>'Mi Cutebot, si ve [condición, ej. objeto cerca], muestra el estado [ej. PELIGRO], con [luces/iconos].'</strong> El compañero debe observar y probar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Gnius STORM (Reflexión Final) ⏰ 1.5 minutos</h3>
+                            <p>Guía la retroalimentación.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">Ahora, la retroalimentación. Después de ver el sistema de alerta de su compañero, díganle: <br>
+                            <strong>* 'Me gustó mucho cómo tu Cutebot distinguió entre [estados, ej. precaución y peligro].'</strong><br>
+                            <strong>* '¡Qué buena 'idea (vibe)' que use [luces/sonidos] para la alerta!'</strong><br>
+                            <strong>* 'Para la próxima, podrías intentar que [sugiere una mejora, como que grabe si el nivel de peligro es muy alto]...'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 5: Gnius STORM (Reflexión Final) ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 11). Cierra la sesión reforzando cómo los robots pueden ser proactivos y conscientes de su entorno mediante múltiples sensores y lógica multi-nivel.</p>
+                        </div>
+                        <div class="collapsible">
+                            <p class="dialogue assistant">¡Impresionante! Han programado a su Cutebot para que sea un verdadero sistema de alerta inteligente, usando la información combinada de varios sensores. Han visto cómo, al definir diferentes niveles de prioridad y respuesta, los robots pueden reaccionar de manera más sofisticada a su entorno. Esto es fundamental para sistemas de seguridad, robots de inspección o incluso para dispositivos médicos donde la detección de un problema temprano y una alerta clara pueden salvar vidas. Hoy lograron decir: '<strong>Yo puedo hacer que mi Cutebot tome decisiones más matizadas y comunique diferentes estados de alerta usando la información de múltiples sensores.</strong>' ¡Son diseñadores de robots más conscientes y proactivos!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
